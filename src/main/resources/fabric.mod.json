@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "helpfulhitboxes",
+  "version": "${version}",
+
+  "name": "Helpful Hitboxes",
+  "description": "Makes the hitbox of certain small blocks larger under specific circumstances, to help with building.",
+  "authors": [
+    "abigailfails"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "https://github.com/abigailfails/HelpfulHitboxes-Fabric/blob/main/LICENSE.txt",
+
+  "environment": "*",
+  "mixins": [
+    "helpfulhitboxes.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
